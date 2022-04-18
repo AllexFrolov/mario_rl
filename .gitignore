@@ -1,0 +1,12 @@
+# Cache
+*.idea*
+*.vscode*
+*__pycache__*
+*.env*
+
+# data files
+*.csv
+*.excel
+*.zip
+*.rar
+*.pkl

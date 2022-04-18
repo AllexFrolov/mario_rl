@@ -1,0 +1,10 @@
+**/.git
+**/.gitignore
+**/.vscode
+**/.idea
+**/__pycache__
+**/test_data
+**/.github
+**/.k8s
+README.MD
+Dockerfile
