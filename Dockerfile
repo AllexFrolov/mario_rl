@@ -4,6 +4,7 @@ COPY ./requirements.txt /app/requirements.txt
 
 RUN apt-get update && apt-get install -y wget && rm -rf /var/lib/apt/lists/* && apt-get clean \
     && pip install --upgrade pip \
-    && pip install --no-cache-dir --upgrade -r /app/requirements.txt
+    && pip install --no-cache-dir --upgrade -r /app/requirements.txt \
+    && pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cpu
 
 WORKDIR /app
